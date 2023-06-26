@@ -1312,6 +1312,24 @@ ol {
   overflow: hidden;
 }
 
+.button .btn-confirm {
+  display: inline-block;
+  text-transform: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 14px 30px;
+  background-color: #00b30f;
+  color: #fff;
+  border: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  margin-right: 7px;
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .button .btn {
     padding: 14px 25px;
